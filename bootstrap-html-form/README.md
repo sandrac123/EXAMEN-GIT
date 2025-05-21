@@ -1,6 +1,6 @@
 # Bootstrap HTML Form
 
-This project is a simple HTML form styled with Bootstrap and includes form validation using HTML5 attributes. The form collects a user's name, email, and message.
+Formulario diseñado para la utilización y relleno de datos personales del usuario a la hora de registrarse en nuestra página web.
 
 ## Project Structure
 
@@ -17,7 +17,14 @@ bootstrap-html-form
 
 To set up this project locally, follow these steps:
 
+## Que fai o fomulario?
+
+Nos permite que cualquier usuario introducza su nombre, correo electrónico y mensaje a través de nuestra página de empresa y solicitar así nuestros productos o recursos, incluye un formato de valiación en caso de que el usuario o cliente no introduzca los datos correctos en el sistmea.
+
+##
+
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/yourusername/bootstrap-html-form.git
    cd bootstrap-html-form
@@ -31,15 +38,25 @@ To set up this project locally, follow these steps:
 This project uses Bootstrap for styling. You can include Bootstrap via CDN in the `index.html` file:
 
 ```html
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
 ```
 
 ## Form Validation
 
 The form includes basic HTML5 validation attributes:
-- `required`: Ensures that the user fills out the field.
-- `type="email"`: Validates that the input is in the correct email format.
-- `maxlength`: Limits the number of characters in the message field.
+
+- `required`: obriga a cumplir o campo
+- `type="email"`: comprueba que el correo estea bien introducido y funcione correctamente
+- `maxlength`: especifica una longitud maxima para introducir el mensaje que deseamos escribir en la pagina web.
+
+## Como usar
+
+1. Abre o fichero 'src/index.html' nun navegador web.
+2. Completa o formulario e comproba a validación automática dos campos.
+3. Personaliza os estilos en 'src/css/styles.css' se o desexas.
 
 ## Custom Styles
 
