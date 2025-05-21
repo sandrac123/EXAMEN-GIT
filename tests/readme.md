@@ -36,3 +36,22 @@ Neste cartafol inclúense scripts para probar e verificar o funcionamento do for
    ```
 
 npx playwriht test
+
+## Estrutura do repositorio
+
+```
+bootstrap-html-form/
+├── index.php
+└── procesar.php
+├── tests/
+│   ├── formulario.spec.js (ou .test.js para Selenium)
+├── .gitignore
+├── package.json
+├── README.md
+```
+
+- **src/**: Código fonte do formulario e estilos.
+- **tests/**: Scripts de proba e documentación das probas.
+- **.gitignore**: Ficheiro para excluír arquivos e carpetas do control de versións.
+- **package.json**: Dependencias e scripts do proxecto (se usas Playwright ou outras ferramentas).
+- **README.md**: Documentación principal do proxecto.

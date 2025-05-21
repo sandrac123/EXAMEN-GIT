@@ -18,21 +18,21 @@ yarn-error.log*
 #Archivos de node
 node_modules/
 
-# Archivos de modules de Node.js
- node_modules
+
 
 #Ficheros temporales de compilación
 dist/
 build/
 out/
 tmp/
-
+*.log
 
 # Archivos de configuración de IDEs
 *.sublime-project
 *.sublime-workspace
-*.vscode
+*.vscode/
 
-#Fichero de package-lock
+
+#Fichero de bloqueo de dependencias
 package-lock.json
 
