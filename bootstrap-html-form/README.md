@@ -23,12 +23,21 @@ Nos permite que cualquier usuario introducza su nombre, correo electrónico y me
 
 ##
 
-1. **Clone the repository**:
+1. **Clone the repository**:## URLs do proxecto
 
-   ```bash
-   git clone https://github.com/yourusername/bootstrap-html-form.git
-   cd bootstrap-html-form
-   ```
+- **Repositorio remoto:**  
+  [https://github.com/teuusuario/bootstrap-html-form.git](https://github.com/teuusuario/bootstrap-html-form.git)
+
+- **Repositorio en GitHub:**  
+  [https://github.com/teuusuario/bootstrap-html-form](https://github.com/teuusuario/bootstrap-html-form)
+
+- **Páxina publicada en GitHub Pages:**  
+  [https://teuusuario.github.io/bootstrap-html-form/](https://teuusuario.github.io/bootstrap-html-form/)
+
+  ```bash
+  git clone https://github.com/yourusername/bootstrap-html-form.git
+  cd bootstrap-html-form
+  ```
 
 2. **Open the project**:
    Open the `src/index.html` file in your web browser to view the form.
