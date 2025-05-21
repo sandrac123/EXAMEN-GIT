@@ -1,0 +1,22 @@
+{
+  "name": "examen-git",
+  "version": "1.0.0",
+  "description": "Formulario diseñado para la utilización y relleno de datos personales del usuario a la hora de registrarse en nuestra página web.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandrac123/EXAMEN-GIT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandrac123/EXAMEN-GIT/issues"
+  },
+  "homepage": "https://github.com/sandrac123/EXAMEN-GIT#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  }
+}
