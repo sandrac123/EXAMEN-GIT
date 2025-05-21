@@ -21,15 +21,6 @@ To set up this project locally, follow these steps:
 
 Nos permite que cualquier usuario introducza su nombre, correo electrónico y mensaje a través de nuestra página de empresa y solicitar así nuestros productos o recursos, incluye un formato de valiación en caso de que el usuario o cliente no introduzca los datos correctos en el sistmea.
 
-##
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/bootstrap-html-form.git
-   cd bootstrap-html-form
-   ```
-
 2. **Open the project**:
    Open the `src/index.html` file in your web browser to view the form.
 
