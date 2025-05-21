@@ -1,53 +1,58 @@
 body {
-    background-color: #f8f9fa; 
-    font-family: Arial, sans-serif;
+    background-color: #f6f5f2; /* Fondo general muy claro */
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 form {
     max-width: 600px;
     margin: 50px auto;
-    padding: 24px 20px;
-    border: 8px solid #aee49e; 
-    border-radius: 12px;
-    background-color: #f3e80ea1; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+    padding: 28px 24px;
+    border: 2px solid #e0cda9; /* Borde exterior beige suave */
+    border-radius: 16px;
+    background-color: #fffefb; /* Fondo del formulario blanco cálido */
+    box-shadow: 0 4px 24px rgba(180, 170, 120, 0.10);
     position: relative;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px
 }
 
 form::after {
     content: "";
     position: absolute;
-    top: 18px;
-    left: 18px;
-    right: 18px;
-    bottom: 18px;
-    border: 2px dashed #80e591; 
-    border-radius: 8px;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    border: 2px dashed #b2babb; 
+    border-radius: 10px;
     pointer-events: none;
     z-index: 0;
 }
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
-    color: #2631d3; 
-    font-size: 22px;
+    margin-bottom: 22px;
+    color: #11d171; 
+    font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin: 10px 0;
-    border: 1px solid #e0cda9;
-    border-radius: 5px;
+    border: 1.5px solid #e0cda9;
+    border-radius: 6px;
     background-color: #fdf6e3; 
     color: #6e5c2f;
     z-index: 1;
     position: relative;
+    font-size: 1rem;
+    transition: border-color 0.2s, background 0.2s;
 }
 
 input[type="text"]:focus,
@@ -59,24 +64,33 @@ textarea:focus {
 }
 
 input[type="submit"],
-button[type="submit"] {
-    background-color: #af6fbf;
-    color: white;
+button[type="submit"],
+a.btn {
+    background-color: #bfa76f;
+    color: #fff;
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 12px 18px;
+    border-radius: 6px;
     cursor: pointer;
     width: 100%;
     font-weight: bold;
     margin-top: 10px;
-    transition: background 0.2s;
+    transition: background 0.2s, color 0.2s;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(191, 167, 111, 0.08);
 }
 
 input[type="submit"]:hover,
-button[type="submit"]:hover {
+button[type="submit"]:hover,
+a.btn:hover {
     background-color: #a68b4a;
+    color: #fff;
 }
 
+.invalid-feedback {
+    color: #d9534f;
+    font-size: 0.95em;
+}
 
 @media (max-width: 600px) {
     form {
