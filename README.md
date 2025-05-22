@@ -28,7 +28,7 @@ Nos permite que cualquier usuario introducza su nombre, correo electrónico y me
   [https://github.com/sandrac123/EXAMEN-GIT.git]
 
 - **Páxina publicada en GitHub Pages:**  
-  [https://sandrac123.github.io/EXAMEN-GIT/index.html]
+   [https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/]
 
   ```bash
   git clone
@@ -71,14 +71,14 @@ cambiar la aparencia del archivo en `src/css/styles.css`.
 
 To deploy your form using GitHub Pages, follow these steps:
 
-1. Push your code to a GitHub repository.
-2. Go to the repository settings.
-3. Scroll down to the "GitHub Pages" section.
-4. Select the branch you want to deploy (usually `main` or `master`).
-5. Click "Save".
+1. Sube tu código a GitHub repositorio.
+2. Ir a la configuración del repositorio.
+3. Seleccionar la sección "GitHub Pages" .
+4. Selecciona la rama que tu quieras usar (usa `main` or `master`).
+5. Haz click en guardar.
 
-Your form will be available at `https://yourusername.github.io/bootstrap-html-form/`.
+Tu formulario es validable en `https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/`.
 
-## License
+## Licencia
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+Este proyecto utiliza la MIT licencia. Mira los detalles de la LICENCIA del archivo.
