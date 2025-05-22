@@ -2,7 +2,7 @@
 
 Formulario diseñado para la utilización y relleno de datos personales del usuario a la hora de registrarse en nuestra página web.
 
-## Project Structure
+## Estructura del proyecto
 
 ```
 bootstrap-html-form
@@ -13,38 +13,34 @@ bootstrap-html-form
 ├── README.md
 ```
 
-## Getting Started
-
-To set up this project locally, follow these steps:
-
 ## Que fai o fomulario?
 
 Nos permite que cualquier usuario introducza su nombre, correo electrónico y mensaje a través de nuestra página de empresa y solicitar así nuestros productos o recursos, incluye un formato de valiación en caso de que el usuario o cliente no introduzca los datos correctos en el sistmea.
 
 ##
 
-1. **Clone the repository**:## URLs do proxecto
+1. **Clonar el repositorio**:## URLs do proxecto
 
 - **Repositorio remoto:**  
-  [https://github.com/teuusuario/bootstrap-html-form.git](https://github.com/teuusuario/bootstrap-html-form.git)
+  [https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/]]
 
 - **Repositorio en GitHub:**  
-  [https://github.com/teuusuario/bootstrap-html-form](https://github.com/teuusuario/bootstrap-html-form)
+  [https://github.com/sandrac123/EXAMEN-GIT.git]
 
 - **Páxina publicada en GitHub Pages:**  
-  [https://teuusuario.github.io/bootstrap-html-form/](https://teuusuario.github.io/bootstrap-html-form/)
+  [https://sandrac123.github.io/EXAMEN-GIT/index.html]
 
   ```bash
-  git clone https://github.com/yourusername/bootstrap-html-form.git
+  git clone
   cd bootstrap-html-form
   ```
 
-2. **Open the project**:
-   Open the `src/index.html` file in your web browser to view the form.
+2. **Abrir el proyecto**:
+   Abriri la carpeta `src/index.html` del archivo para ver el formulario
 
 ## Dependencies
 
-This project uses Bootstrap for styling. You can include Bootstrap via CDN in the `index.html` file:
+Este proyecto usa Bootstrap para el estilo. Puedes incluir Bootstrap via CDN en el `index.html` archivo:
 
 ```html
 <link
@@ -53,9 +49,9 @@ This project uses Bootstrap for styling. You can include Bootstrap via CDN in th
 />
 ```
 
-## Form Validation
+## Validación del formulario
 
-The form includes basic HTML5 validation attributes:
+El formulario basic HTML5 valida los siguientes atributos:
 
 - `required`: obriga a cumplir o campo
 - `type="email"`: comprueba que el correo estea bien introducido y funcione correctamente
@@ -67,7 +63,7 @@ The form includes basic HTML5 validation attributes:
 2. Completa o formulario e comproba a validación automática dos campos.
 3. Personaliza os estilos en 'src/css/styles.css' se o desexas.
 
-## Custom Styles
+## Stilos
 
 You can customize the appearance of the form by editing the `src/css/styles.css` file.
 
