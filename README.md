@@ -1,84 +1,57 @@
-# Bootstrap HTML Form
+# Probas do formulario
 
-Formulario diseñado para la utilización y relleno de datos personales del usuario a la hora de registrarse en nuestra página web.
+Neste cartafol inclúense scripts para probar e verificar o funcionamento do formulario principal.
 
-## Estructura del proyecto
+## Scripts de proba
+
+- **test-valid-form.html**  
+  Proba o formulario con datos válidos pre-rellenos. Ao enviar, debería aparecer unha mensaxe de éxito indicando que o formulario é correcto.
+
+- **test-invalid-form.html**  
+  Proba o formulario cos campos baleiros. Ao intentar enviar, deberían aparecer mensaxes de erro e unha alerta indicando que hai campos incorrectos ou baleiros.
+
+## Como verificar as probas manualmente
+
+1. Abre cada ficheiro `.html` deste cartafol nun navegador web.
+2. No ficheiro **test-valid-form.html**, preme o botón de envío e comproba que aparece unha mensaxe verde de éxito.
+3. No ficheiro **test-invalid-form.html**, preme o botón de envío baleiro e comproba que aparecen mensaxes de erro nos campos obrigatorios e unha alerta vermella.
+
+## Ferramenta empregada nas probas automáticas
+
+[Playwright](https://playwright.dev/)
+
+## Como instalar as dependencias e executar as probas automáticas
+
+1. Instala [Node.js](https://nodejs.org/) se non o tes instalado.
+2. Abre unha terminal na raíz do proxecto e executa:
+
+   ```bash
+   npm install -D playwright
+   ```
+
+3. Para executar as probas automáticas (se tes scripts Playwright configurados):
+
+   ```bash
+   npx playwright test
+   ```
+
+npx playwriht test
+
+## Estrutura do repositorio
 
 ```
-bootstrap-html-form
-├── src
-│   ├── index.html
-│   └── css
-│       └── styles.css
+bootstrap-html-form/
+├── index.php
+└── procesar.php
+├── tests/
+│   ├── formulario.spec.js (ou .test.js para Selenium)
+├── .gitignore
+├── package.json
 ├── README.md
 ```
 
-## Que fai o fomulario?
-
-Nos permite que cualquier usuario introducza su nombre, correo electrónico y mensaje a través de nuestra página de empresa y solicitar así nuestros productos o recursos, incluye un formato de valiación en caso de que el usuario o cliente no introduzca los datos correctos en el sistmea.
-
-##
-
-1. **Clonar el repositorio**:## URLs do proxecto
-
-- **Repositorio remoto:**  
-  [https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/]
-
-- **Repositorio en GitHub:**  
-  [https://github.com/sandrac123/EXAMEN-GIT.git]
-
-- **Páxina publicada en GitHub Pages:**  
-   [https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/]
-
-  ```bash
-  git clone sandrac123/EXAMEN-GIT.git
-  cd bootstrap-html-form
-  ```
-
-2. **Abrir el proyecto**:
-   Abrir la carpeta `src/index.html` del archivo para ver el formulario
-
-## Dependencies
-
-Este proyecto usa Bootstrap para el estilo. Puedes incluir Bootstrap via CDN en el `index.html` archivo:
-
-```html
-<link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-/>
-```
-
-## Validación del formulario
-
-El formulario basic HTML5 valida los siguientes atributos:
-
-- `required`: obriga a cumplir o campo
-- `type="email"`: comprueba que el correo estea bien introducido y funcione correctamente
-- `maxlength`: especifica una longitud maxima para introducir el mensaje que deseamos escribir en la pagina web.
-
-## Como usar
-
-1. Abre o fichero 'src/index.html' nun navegador web.
-2. Completa o formulario e comproba a validación automática dos campos.
-3. Personaliza os estilos en 'src/css/styles.css' se o desexas.
-
-## Estilos
-
-cambiar la aparencia del archivo en `src/css/styles.css`.
-
-## Deploying with GitHub Pages
-
-To deploy your form using GitHub Pages, follow these steps:
-
-1. Sube tu código a GitHub repositorio.
-2. Ir a la configuración del repositorio.
-3. Seleccionar la sección "GitHub Pages" .
-4. Selecciona la rama que tu quieras usar (usa `main` or `master`).
-5. Haz click en guardar.
-
-Tu formulario es validable en `https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/`.
-
-## Licencia
-
-Este proyecto utiliza la MIT licencia. Mira los detalles de la LICENCIA del archivo.
+- **src/**: Código fonte do formulario e estilos.
+- **tests/**: Scripts de proba e documentación das probas.
+- **.gitignore**: Ficheiro para excluír arquivos e carpetas do control de versións.
+- **package.json**: Dependencias e scripts do proxecto (se usas Playwright ou outras ferramentas).
+- **README.md**: Documentación principal do proxecto.
