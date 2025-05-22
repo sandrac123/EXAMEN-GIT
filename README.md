@@ -31,12 +31,12 @@ Nos permite que cualquier usuario introducza su nombre, correo electrónico y me
    [https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/]
 
   ```bash
-  git clone
+  git clone sandrac123/EXAMEN-GIT.git
   cd bootstrap-html-form
   ```
 
 2. **Abrir el proyecto**:
-   Abriri la carpeta `src/index.html` del archivo para ver el formulario
+   Abrir la carpeta `src/index.html` del archivo para ver el formulario
 
 ## Dependencies
 

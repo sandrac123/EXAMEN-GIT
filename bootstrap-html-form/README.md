@@ -2,7 +2,7 @@
 
 Formulario diseñado para la utilización y relleno de datos personales del usuario a la hora de registrarse en nuestra página web.
 
-## Project Structure
+## Estructura del proyecto
 
 ```
 bootstrap-html-form
@@ -13,38 +13,34 @@ bootstrap-html-form
 ├── README.md
 ```
 
-## Getting Started
-
-To set up this project locally, follow these steps:
-
 ## Que fai o fomulario?
 
 Nos permite que cualquier usuario introducza su nombre, correo electrónico y mensaje a través de nuestra página de empresa y solicitar así nuestros productos o recursos, incluye un formato de valiación en caso de que el usuario o cliente no introduzca los datos correctos en el sistmea.
 
 ##
 
-1. **Clone the repository**:## URLs do proxecto
+1. **Clonar el repositorio**:## URLs do proxecto
 
 - **Repositorio remoto:**  
-  [https://github.com/teuusuario/bootstrap-html-form.git](https://github.com/teuusuario/bootstrap-html-form.git)
+  [https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/]
 
 - **Repositorio en GitHub:**  
-  [https://github.com/teuusuario/bootstrap-html-form](https://github.com/teuusuario/bootstrap-html-form)
+  [https://github.com/sandrac123/EXAMEN-GIT.git]
 
 - **Páxina publicada en GitHub Pages:**  
-  [https://teuusuario.github.io/bootstrap-html-form/](https://teuusuario.github.io/bootstrap-html-form/)
+   [https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/]
 
   ```bash
-  git clone https://github.com/yourusername/bootstrap-html-form.git
+  git clone  https://github.com/sandrac123/EXAMEN-GIT.git
   cd bootstrap-html-form
   ```
 
 2. **Open the project**:
-   Open the `src/index.html` file in your web browser to view the form.
+   Abrir el archivo `src/index.html` en tu rama para visualizar el formulario.
 
-## Dependencies
+## Dependencias
 
-This project uses Bootstrap for styling. You can include Bootstrap via CDN in the `index.html` file:
+El proyecto utiliza el diseño de Bootstrap. Puedes incluir Bootstrap por CDN en el siguiente archivo `index.html`:
 
 ```html
 <link
@@ -53,9 +49,9 @@ This project uses Bootstrap for styling. You can include Bootstrap via CDN in th
 />
 ```
 
-## Form Validation
+## Validación del formulario
 
-The form includes basic HTML5 validation attributes:
+El formulario incluye validación del HTML5 con Bootstrap:
 
 - `required`: obriga a cumplir o campo
 - `type="email"`: comprueba que el correo estea bien introducido y funcione correctamente
@@ -67,22 +63,22 @@ The form includes basic HTML5 validation attributes:
 2. Completa o formulario e comproba a validación automática dos campos.
 3. Personaliza os estilos en 'src/css/styles.css' se o desexas.
 
-## Custom Styles
+## Estilos de css
 
-You can customize the appearance of the form by editing the `src/css/styles.css` file.
+Se puede modificar el estilo en el siguiente archivo `src/css/styles.css`.
 
-## Deploying with GitHub Pages
+## Despliegue de GitHub Pages
 
-To deploy your form using GitHub Pages, follow these steps:
+Se necesita realizar los siguientes pasos para el despliegue de esta:
 
-1. Push your code to a GitHub repository.
-2. Go to the repository settings.
-3. Scroll down to the "GitHub Pages" section.
-4. Select the branch you want to deploy (usually `main` or `master`).
-5. Click "Save".
+1. Subir tu código en el repositiorio Git Hub.
+2. Ir a la configuración del repositorio.
+3. Seleccionar la GitHub pages.
+4. Selecciona la rama que tu quieras (usa `main` o`master`).
+5. Haz click en guardar.
 
-Your form will be available at `https://yourusername.github.io/bootstrap-html-form/`.
+Puedes ver el formuario en `https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/`.
 
-## License
+## Licencia
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+El proyecto utiliza la licencia de MIT. En caso de dudas consulatar con esta.
