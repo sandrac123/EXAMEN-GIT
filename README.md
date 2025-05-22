@@ -22,7 +22,7 @@ Nos permite que cualquier usuario introducza su nombre, correo electrónico y me
 1. **Clonar el repositorio**:## URLs do proxecto
 
 - **Repositorio remoto:**  
-  [https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/]]
+  [https://sandrac123.github.io/EXAMEN-GIT/bootstrap-html-form/src/]
 
 - **Repositorio en GitHub:**  
   [https://github.com/sandrac123/EXAMEN-GIT.git]
@@ -63,9 +63,9 @@ El formulario basic HTML5 valida los siguientes atributos:
 2. Completa o formulario e comproba a validación automática dos campos.
 3. Personaliza os estilos en 'src/css/styles.css' se o desexas.
 
-## Stilos
+## Estilos
 
-You can customize the appearance of the form by editing the `src/css/styles.css` file.
+cambiar la aparencia del archivo en `src/css/styles.css`.
 
 ## Deploying with GitHub Pages
 
